@@ -1,0 +1,28 @@
+{
+  "name": "socketio",
+  "version": "1.0.0",
+  "description": "Primeiro contato com socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henrique-nofv/socketIoChat.git"
+  },
+  "author": "Henrique Noronha Favorette",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henrique-nofv/socketIoChat/issues"
+  },
+  "homepage": "https://github.com/henrique-nofv/socketIoChat#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  }
+}
